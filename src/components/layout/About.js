@@ -1,42 +1,37 @@
-import {AiOutlineGroup} from 'react-icons/ai';
+import {AiOutlineUsergroupAdd, AiOutlineLineChart, AiOutlineTrophy} from 'react-icons/ai';
 
 export const About = () => {
   return (
-    <section className="bg-azul_oscuro shadow-lg">   
-    <h2 className="text-white text-center py-8 font-bold text-5xl">Quiénes Somos</h2>  
-    <div className="grid grid-cols-1 md:grid-cols-2">        
-      <div style={{backgroundImage: `url('./img/arbol-color.png')`}} className="bg-no-repeat  bg-contain bg-top flex justify-center items-center">        
-         {/* <img className="object-cover w-1/2 h-4/5" src="./img/arbol-color.png" alt="arbol" />        */}
-      </div>
-      <div className="w-full md:w-4/5 grid grid-rows-3 grid-cols-1 md:grid-cols-2 bg-white">
-        <div className="flex justify-center items-center">
-          <div className="rounded-full bg-azul">
-                 <AiOutlineGroup className="m-8 text-white" size={20} />            
-          </div>
+    <section className="bg-azul_oscuro shadow-lg" id='about'>   
+    <h2 className="text-white text-center py-8 font-bold text-5xl">Conoce Sobre Nosotros</h2>  
+    <div className=''> 
+      <h4 className="text-white text-center text-base mx-auto py-2 w-1/2 md:text-2xl">5 Años de Experiencia</h4>
+      <article>
+        <p className="text-white text-center text-base mx-auto py-2 w-1/2">Somos un equipo de trabajo dedicados a proveer servicios integrales asociados al bienestar humano desde un enfoque humanista en la ciencia, tecnología y creatividad</p>
+      </article>
+    </div>
+    <div className='text-white text-center py-10 mx-4 flex gap-8 md:flex-row flex-col justify-center'>
+        <div> 
+          <div className='flex justify-center items-center'>
+          <AiOutlineUsergroupAdd className="m-8 text-white" size={40} /> 
+          </div> 
+           <h2 className='font-bold'>NOSOTROS</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quas expedita alias maiores deleniti quasi dolore ipsum laborum doloribus sunt. Ratione eveniet sapiente delectus modi asperiores quas corporis cum animi!</p>
         </div>
-        <div className="p-4">
-         <h1 className="font-bold">NOSOTROS</h1>
-         <p>Somos un equipo de trabajo dedicados a proveer servicios integrales asociados al bienestar humano desde un enfoque humanista en la ciencia, tecnología y creatividad.</p>
+        <div>
+        <div className='flex justify-center items-center'>
+          <AiOutlineLineChart className="m-8 text-white" size={40} /> 
+          </div> 
+            <h2 className='font-bold'>MISIÓN</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, inventore vero! Iste eos placeat cupiditate debitis molestiae error maxime dolores, quod id corrupti, magni assumenda! Dicta ipsam assumenda reprehenderit incidunt!</p>
         </div>
-        <div className="flex justify-center items-center bg-purpura">
-          <div className="rounded-full bg-azul">
-          <AiOutlineGroup className="m-8 text-white" size={20} />              
-          </div>
+        <div>
+        <div className='flex justify-center items-center'>
+          <AiOutlineTrophy className="m-8 text-white" size={40} /> 
+          </div> 
+            <h2 className='font-bold'>VISIÓN</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ad repellendus corporis necessitatibus facere aperiam rem nobis quibusdam voluptas explicabo ut possimus architecto, quo excepturi voluptatum exercitationem soluta. Enim, ea!</p>
         </div>
-        <div className="p-4 bg-purpura">
-          <h1 className="font-bold">MISIÓN</h1>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla rem dolores quae tempora incidunt ut voluptas tenetur a, vitae optio</p>
-        </div>
-        <div className="flex justify-center items-center bg-purpura">
-          <div className="rounded-full bg-azul">
-          <AiOutlineGroup className="m-8 text-white" size={20} />             
-          </div>
-        </div>
-        <div className="p-4 bg-purpura">
-          <h1 className="font-bold">VISIÓN</h1>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla rem dolores quae tempora incidunt ut voluptas tenetur a, vitae optio</p>
-        </div>
-      </div>
     </div>
   </section>
   )
