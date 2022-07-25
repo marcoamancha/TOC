@@ -8,7 +8,7 @@ export const Services = () => {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
             <div className="max-w-sm bg-gray-200 rounded-lg border border-gray-200 shadow-md ml-2">
                 <a href="#2">
-                    <img className="rounded-t-lg" src="/img/Salud.jpeg" alt="" />
+                    <img className="rounded-t-lg" src="/img/medicina4.jpg" alt="" />
                 </a>
                 <div className="p-5">
                     <a href="#4">
@@ -19,7 +19,7 @@ export const Services = () => {
             </div>      
             <div className="max-w-sm bg-gray-200 rounded-lg border border-gray-200 shadow-md ml-2">
                 <a href="#2">
-                    <img className="rounded-t-lg" src="/img/Salud.jpeg" alt="" />
+                    <img className="rounded-t-lg" src="/img/medicina4.jpg" alt="" />
                 </a>
                 <div className="p-5">
                     <a href="#4">
@@ -30,7 +30,7 @@ export const Services = () => {
             </div>   
             <div className="max-w-sm bg-gray-200 rounded-lg border border-gray-200 shadow-md ml-2">
                 <a href="#2">
-                    <img className="rounded-t-lg" src="/img/Salud.jpeg" alt="" />
+                    <img className="rounded-t-lg" src="/img/medicina4.jpg" alt="" />
                 </a>
                 <div className="p-5">
                     <a href="#4">
@@ -41,7 +41,7 @@ export const Services = () => {
             </div>   
             <div className="max-w-sm bg-gray-200 rounded-lg border border-gray-200 shadow-md ml-2">
                 <a href="#2">
-                    <img className="rounded-t-lg" src="/img/Salud.jpeg" alt="" />
+                    <img className="rounded-t-lg" src="/img/medicina4.jpg" alt="" />
                 </a>
                 <div className="p-5">
                     <a href="#4">

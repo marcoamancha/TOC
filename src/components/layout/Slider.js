@@ -2,14 +2,9 @@ import {useEffect, useRef, useState} from 'react';
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from 'react-icons/ai';
 
 const imagesSlider = [
-    '/img/medicina.jpeg',
-    '/img/odontologia.jpg',
-    '/img/Psicologia.jpg',
-    '/img/obstetricia.jpg',
-    '/img/comunicacion.jpg',
-    '/img/juridica.jpg',
-    '/img/QuienesSomos.jpeg',
-    '/img/Salud.jpeg',
+    '/img/medicina.jpg',
+    '/img/medicina2.jpg',
+    '/img/medicina3.jpg',
 ];
 let count = 0;
 export const Slider = () => {
